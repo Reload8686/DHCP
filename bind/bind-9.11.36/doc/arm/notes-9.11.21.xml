@@ -1,0 +1,41 @@
+<!--
+ - Copyright (C) Internet Systems Consortium, Inc. ("ISC")
+ -
+ - This Source Code Form is subject to the terms of the Mozilla Public
+ - License, v. 2.0. If a copy of the MPL was not distributed with this
+ - file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ -
+ - See the COPYRIGHT file distributed with this work for additional
+ - information regarding copyright ownership.
+-->
+
+<section xml:id="relnotes-9.11.21"><info><title>Notes for BIND 9.11.21</title></info>
+
+  <section xml:id="relnotes-9.11.21-bugs"><info><title>Bug Fixes</title></info>
+    <itemizedlist>
+      <listitem>
+        <para>
+          <command>named</command> could crash when cleaning dead nodes in
+          <filename>lib/dns/rbtdb.c</filename> that were being reused.
+          [GL #1968]
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Properly handle missing <command>kyua</command> command so that
+          <command>make check</command> does not fail unexpectedly when CMocka
+          is installed, but Kyua is not. [GL #1950]
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          The validator could fail to accept a properly signed RRset if an
+          unsupported algorithm appeared earlier in the DNSKEY RRset than a
+          supported algorithm. It could also stop if it detected a malformed
+          public key. [GL #1689]
+        </para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+</section>

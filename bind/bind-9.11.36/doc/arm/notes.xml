@@ -1,0 +1,64 @@
+<!DOCTYPE book [
+<!ENTITY Scaron "&#x160;">
+<!ENTITY ccaron "&#x10D;">
+<!ENTITY aacute "&#x0E1;">
+<!ENTITY mdash "&#8212;">
+<!ENTITY ouml "&#xf6;">]>
+<!--
+ - Copyright (C) Internet Systems Consortium, Inc. ("ISC")
+ -
+ - This Source Code Form is subject to the terms of the Mozilla Public
+ - License, v. 2.0. If a copy of the MPL was not distributed with this
+ - file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ -
+ - See the COPYRIGHT file distributed with this work for additional
+ - information regarding copyright ownership.
+-->
+
+<section xmlns="http://docbook.org/ns/docbook" version="5.0"><info/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="noteversion.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-intro.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-download.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-license.xml"/>
+
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.36.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.35.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.34.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.33.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.32.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.31.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.30.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.29.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.28.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.27.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.26.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.25.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.24.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.23.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.22.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.21.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.20.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.19.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.18.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.17.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.16.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.15.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.14.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.13.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.12.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.11.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.10.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.9.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.8.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.7.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.6.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.5.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.4.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.3.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.2.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.1.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-9.11.0.xml"/>
+
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-eol.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="notes-thankyou.xml"/>
+</section>

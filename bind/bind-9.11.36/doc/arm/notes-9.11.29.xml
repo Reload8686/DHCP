@@ -1,0 +1,27 @@
+<!--
+ - Copyright (C) Internet Systems Consortium, Inc. ("ISC")
+ -
+ - This Source Code Form is subject to the terms of the Mozilla Public
+ - License, v. 2.0. If a copy of the MPL was not distributed with this
+ - file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ -
+ - See the COPYRIGHT file distributed with this work for additional
+ - information regarding copyright ownership.
+-->
+
+<section xml:id="relnotes-9.11.29"><info><title>Notes for BIND 9.11.29</title></info>
+
+  <section xml:id="relnotes-9.11.29-bugs"><info><title>Bug Fixes</title></info>
+    <itemizedlist>
+      <listitem>
+        <para>
+          An invalid direction field (not one of <command>N</command>,
+          <command>S</command>, <command>E</command>, <command>W</command>) in a
+          LOC record resulted in an INSIST failure when a zone file containing
+          such a record was loaded. [GL #2499]
+        </para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+</section>

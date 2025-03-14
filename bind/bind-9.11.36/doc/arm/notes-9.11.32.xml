@@ -1,0 +1,37 @@
+<!--
+ - Copyright (C) Internet Systems Consortium, Inc. ("ISC")
+ -
+ - This Source Code Form is subject to the terms of the Mozilla Public
+ - License, v. 2.0. If a copy of the MPL was not distributed with this
+ - file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ -
+ - See the COPYRIGHT file distributed with this work for additional
+ - information regarding copyright ownership.
+-->
+
+<section xml:id="relnotes-9.11.32"><info><title>Notes for BIND 9.11.32</title></info>
+
+  <section xml:id="relnotes-9.11.32-changes"><info><title>Feature Changes</title></info>
+    <itemizedlist>
+      <listitem>
+        <para>
+          DNSSEC responses containing NSEC3 records with iteration counts
+          greater than 150 are now treated as insecure. [GL #2445]
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          The maximum supported number of NSEC3 iterations that can be
+          configured for a zone has been reduced to 150. [GL #2642]
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          The implementation of the ZONEMD RR type has been updated to match RFC
+          8976. [GL #2658]
+        </para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+</section>

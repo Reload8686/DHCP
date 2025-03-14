@@ -1,0 +1,35 @@
+<!--
+ - Copyright (C) Internet Systems Consortium, Inc. ("ISC")
+ -
+ - This Source Code Form is subject to the terms of the Mozilla Public
+ - License, v. 2.0. If a copy of the MPL was not distributed with this
+ - file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ -
+ - See the COPYRIGHT file distributed with this work for additional
+ - information regarding copyright ownership.
+-->
+
+<section xml:id="relnotes-9.11.28"><info><title>Notes for BIND 9.11.28</title></info>
+
+  <section xml:id="relnotes-9.11.28-security"><info><title>Security Fixes</title></info>
+    <itemizedlist>
+      <listitem>
+        <para>
+          When <command>tkey-gssapi-keytab</command> or
+          <command>tkey-gssapi-credential</command> was configured, a specially
+          crafted GSS-TSIG query could cause a buffer overflow in the ISC
+          implementation of SPNEGO (a protocol enabling negotiation of the
+          security mechanism to use for GSSAPI authentication). This flaw could
+          be exploited to crash <command>named</command>. Theoretically, it also
+          enabled remote code execution, but achieving the latter is very
+          difficult in real-world conditions. (CVE-2020-8625)
+        </para>
+        <para>
+          This vulnerability was responsibly reported to us as ZDI-CAN-12302 by
+          Trend Micro Zero Day Initiative. [GL #2354]
+        </para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+</section>

@@ -1,0 +1,36 @@
+<!--
+ - Copyright (C) Internet Systems Consortium, Inc. ("ISC")
+ -
+ - This Source Code Form is subject to the terms of the Mozilla Public
+ - License, v. 2.0. If a copy of the MPL was not distributed with this
+ - file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ -
+ - See the COPYRIGHT file distributed with this work for additional
+ - information regarding copyright ownership.
+-->
+
+<section xml:id="relnotes-9.11.23"><info><title>Notes for BIND 9.11.23</title></info>
+
+  <section xml:id="relnotes-9.11.23-bugs"><info><title>Bug Fixes</title></info>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Parsing of LOC records was made more strict by rejecting a sole period
+          (<userinput>.</userinput>) and/or <userinput>m</userinput> as a value.
+          These changes prevent zone files using such values from being loaded.
+          Handling of negative altitudes which are not integers was also
+          corrected. [GL #2074]
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Several problems found by <link
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xlink:href="https://github.com/google/oss-fuzz">OSS-Fuzz</link> were
+          fixed. (None of these are security issues.) [GL !3953] [GL !3975]
+        </para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+</section>
